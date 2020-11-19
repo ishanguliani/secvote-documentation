@@ -46,7 +46,7 @@ To make testing easier, we wrote a python program that reads information about t
 ![Screen Shot 2020-10-29 at 5 24 57 PM](https://user-images.githubusercontent.com/8524069/97634275-ceb71700-1a0b-11eb-89c0-6b4f23a8da53.png)
 
 1. Navigate to the `testing` dir from the root of the project directory.
-2. Run `python3 program.py [JSON FILE]`. The information can be changed in each JSON file.
+2. Run `python3 program.py [JSON FILE] production`. The information can be changed in each JSON file.
    1. `register.json`: Will register a new user.
    2. `login.json`: Will log a user in.
    3. `elections.json`: Will give all the open elections.
