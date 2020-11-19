@@ -49,7 +49,12 @@ To make testing easier, we wrote a python program that reads information about t
 2. Run `python3 program.py [JSON FILE]`. The information can be changed in each JSON file.
    1. `register.json`: Will register a new user.
    2. `login.json`: Will log a user in.
-   3. `cast.json`: Will cast a vote.
+   3. `elections.json`: Will give all the open elections.
+   4. `candidates.json`: Will give all the candidates that user can vote for.
+   5. `cast.json`: Will cast a vote.
+   6. `votinghistory.json`: Will give the user's voting history
+   7. `result.json` : Will give the result of the election.
+   
    
 Once the vote is casted, you can further access the information as an administrator and look at the ballot box by visiting:
 `localhost:8000/admin` with 
